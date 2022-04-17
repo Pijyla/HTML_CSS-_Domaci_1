@@ -167,7 +167,7 @@ footer{
 #shape_on_image{
     margin-left: -56rem;
     margin-top: -9.5rem;
-    z-index: 1;
+    z-index: 2;
     float: left;
     overflow: hidden;
     clear: none;
@@ -179,7 +179,7 @@ footer{
     width: 7rem;
     margin-left: 54rem;
     margin-top: -2rem;
-    z-index: 2;
+    z-index: 3;
     float: right;
     overflow: hidden;
     clear: none;
@@ -191,7 +191,7 @@ footer{
     width: 4rem;
     margin-left: 47rem;
     margin-top: -4.5rem;
-    z-index: 3;
+    z-index: 4;
     float: right;
     overflow: hidden;
     clear: none;
@@ -203,7 +203,7 @@ footer{
     width: 12rem;
     margin-left: 49rem;
     margin-top: 31rem;
-    z-index: 4;
+    z-index: 5;
     overflow: visible;
     clear: none;
     position: absolute;
@@ -218,9 +218,9 @@ footer{
     border-style: solid;
     border-color: black;
     border-width: 0.01rem;
-    z-index: 5;
+    z-index: 6;
     position: fixed;
     display: inline-block;
-    margin-top: 68rem;
+    margin-top: 73rem;
     margin-left: 70rem;
 }
