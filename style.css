@@ -250,3 +250,30 @@ a:visited{
 a{
     color: black;
 }
+@media only screen and (max-width:450px) {
+    html{font-size: 40%;}
+    body{
+        background-color: black;
+        background-image: url('./assets/Texture_Fill.png');
+        height: 100vh;
+        background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas: 
+        'header'
+        'title '
+        'content-title'
+        'content_image' 
+        'content_text'
+        'footer';
+        align-items: center;
+    }
+    #content-title p{
+        margin: 2rem;
+    }
+
+    
+}
