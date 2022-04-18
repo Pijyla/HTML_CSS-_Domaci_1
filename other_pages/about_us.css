@@ -11,7 +11,6 @@ body{
 .content{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin: 3rem;
     gap:2rem;
     font-family: 'Square Peg', cursive;
@@ -74,6 +73,7 @@ img{
     border: solid 2px rgb(235, 3, 3);
     padding: 1rem;
     border-radius: 2rem;
+    height: auto;
 }
 h2{
     text-align: center;
