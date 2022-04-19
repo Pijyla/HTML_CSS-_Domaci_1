@@ -6,6 +6,7 @@ html{
 body{
     background-image: url("../assets/Texture_Fill.png");
     background-size: cover;
+    height: 100vh;
 }
 
 .content{
@@ -34,7 +35,7 @@ img{
 
 }
 
-@media only screen and (max-width:885px) {
+@media only screen and (max-width:900px) {
     html{
         font-size: 55%;
     }
