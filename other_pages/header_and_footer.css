@@ -7,6 +7,12 @@ header{
     padding-top: 2em;
 }
 
+#logo{
+    height: 6rem;
+    width: 5rem;
+    padding-left: 5rem;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
